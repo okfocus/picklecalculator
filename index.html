@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OKFOCUS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="keywords" content="OKFocus, " />
+    <meta name="description" content="OKFocus" />
+    <meta property="og:title" content="OKFocus" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon.jpg" />
+    <meta property="og:url" content="http://" />
+    <meta property="og:site_name" content="OKFocus" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="image_src" href="/icon.jpg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/icon.jpg" />
+    <link rel="apple-touch-icon-precomposed" href="/icon.jpg" />
+    <script type="text/javascript">
+    var is_iphone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i));
+    var is_ipad = (navigator.userAgent.match(/iPad/i));
+    var is_android = (navigator.userAgent.match(/Android/i))
+    var is_mobile = is_iphone || is_ipad || is_android;
+    $(function() {
+    if (is_mobile) {
+        $("html").addClass("mobile");
+    } else {
+        $("html").addClass("desktop");
+    }
+    });
+    });
+    </script>
+    <style>
+    	*{
+    		margin:0;
+    		padding:0;
+    		outline:0;
+    	}
+    	body{
+    		background: green url(http://www.a1pickle.com/image/107979219.png)center;
+    		background-size: 20%;
+    	}
+    	hand {
+    		width:100vw;
+    		height:100vh;
+    		background: url(hand.svg)center no-repeat;
+    		display:inline-block;
+    		position:absolute;
+    		top:0;
+    		left:0;
+    		background-size:auto 80%;
+    	}
+    </style>
+</head>
+
+<body>
+	<hand></hand>
+</body>
+
+</html>
